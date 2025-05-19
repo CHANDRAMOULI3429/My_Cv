@@ -108,3 +108,9 @@ footer a:hover {
 .download-btn:hover {
   background-color: #145ca8;
 }
+
+@media print {
+  .download-btn {
+    display: none !important;
+  }
+}
